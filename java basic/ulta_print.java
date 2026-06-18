@@ -1,7 +1,7 @@
-import java.utill.*;
-public class Main{
+import java.util.*;
+public class ulta_print{
      public static void main(String[] args){
-        Scaner scn = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
 
         while(n > 0){

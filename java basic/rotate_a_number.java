@@ -1,7 +1,7 @@
-import java.utill.*;
-public class Main{
+import java.util.*;
+public class rotate_a_number{
      public static void main(String[] args){
-        Scaner scn = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
        
         int n = scn.nextInt();
         int k = scn.nextInt();
@@ -12,6 +12,7 @@ public class Main{
             temp = temp /10;
             nod++;
         }
+        int mod = nod;
         k = k % mod;
         if(k < 0){
             k = k + mod;

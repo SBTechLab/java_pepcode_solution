@@ -1,11 +1,11 @@
-import java.utill.*;
-public class Main{
-    public static void main(string[] args){
+import java.util.*;
+public class primt_low_to_high{
+    public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
         int low = scn.nextInt();
         int high = scn.nextInt();
 
-        for(int n =0; n < =high; n++){
+        for(int n = low; n <= high; n++){
             int count =0;
             //try to divide n and incrtease count
               for(int div =2; div * div <=n; div++){
