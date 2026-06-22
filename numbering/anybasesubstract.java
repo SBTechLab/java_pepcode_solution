@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class anybasesub {
+public class anybasesubstract {
 
     public static void main (String[] args){
         Scanner scn  = new Scanner(System.in);
