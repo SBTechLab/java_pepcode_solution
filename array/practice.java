@@ -17,9 +17,9 @@ public class practice {
         int[] arr;
         arr = new int[5];
         
-        arr[0] =33;
-        arr[1] =47;
-        arr[2] =45;
+        arr[0] = 33;
+        arr[1] = 47;
+        arr[2] = 45;
         arr[3] = 35;
         arr[4] = 22;
 

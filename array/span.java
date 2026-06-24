@@ -1,8 +1,10 @@
 package array;
 
+import java.util.Scanner;
+
 public class span {
     public static void main(String[] args) throws Exception{
-       Scanner scn = new Scanner(System.in);
+    Scanner  scn =  new Scanner (System.in);
 
        int n = scn.nextInt();
        int[] arr = new int[n];
@@ -16,7 +18,7 @@ public class span {
         int min = arr[0];
 
         for(int i =1; i < arr.length; i++){
-            if(ar[i] > max){
+            if(arr[i] > max){
                 max = arr[i];
             }
             if(arr[i] < min){
